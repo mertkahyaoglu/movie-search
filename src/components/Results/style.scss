@@ -1,0 +1,61 @@
+.results {
+  padding: 15px 0;
+  .stats {
+    padding: 5px 10px;
+    color: #808080;
+  }
+  .thumbnail {
+    width: 55px;
+    height: 70px;
+    margin-bottom: 0;
+  }
+  table {
+    margin-top: 20px;
+    font-size: 16px;
+    thead {
+      color: orange;
+    }
+    .row-title {
+      position: relative;
+      cursor: pointer;
+      color: #ff6600;
+    }
+    .row-title:hover {
+      text-decoration: underline;
+    }
+    .row-title:hover .snippet{
+      display: flex;
+    }
+    .snippet {
+      color: #555;
+      position: absolute;
+      left: 0;
+      top: -400px;
+      padding: 10px;
+      width: 550px;
+      min-height: 300px;
+      border-radius: 4px;
+      display: none;
+      z-index: 1000;
+      font-size: 14px;
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      img {
+        margin-right: 10px;
+        border: 1px solid #f2f2f2;
+      }
+      h3 {
+        color: orange;
+        margin: 0 0 10px 0;
+      }
+      .hl {
+        color: orange;
+      }
+      em {
+        background-color: yellow;
+        padding: 3px 5px;
+        border-radius: 4px;
+      }
+    }
+  }
+}

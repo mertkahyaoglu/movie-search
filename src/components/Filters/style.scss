@@ -1,0 +1,30 @@
+.genres {
+  padding: 8px 0 !important;
+  margin: 0;
+  display: inline-block;
+}
+
+.genres li {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 3px;
+  float: left;
+  list-style: none;
+  font-size: 14px;
+  color: #ED9C28;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.genres li:hover {
+  background-color: #f2f2f2;
+}
+
+.genres li i {
+  color: #ff6600;
+}
+
+.genres li.active {
+  background-color: rgb(237, 196, 39);
+  color: white;
+}

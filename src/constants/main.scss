@@ -1,0 +1,15 @@
+.container {
+
+  .error {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #ff2323;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  @media (max-width: 720px) {
+    padding: 0;
+  }
+}
